@@ -1,0 +1,38 @@
+.faq{
+    padding: 96px 0px 48px 0px;
+    @include mobile(){
+        padding: 40px 0px;
+    }
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+        border-left: 8px solid #9F1213;
+        padding-left: 16px;
+        margin-bottom: 32px;
+        text-align: left;
+        @include mobile(){
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+    }
+    p{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 24px;
+    }
+}
+.faq-content{
+    h3{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 32px;
+        @include mobile(){
+            margin-bottom: 24px;
+        }
+    }
+}

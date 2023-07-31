@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台北中山旗艦店-門市據點</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="stylesheet/all.css">
+</head>
+<body>
+    <%- include('./layout/header'); -%>
+    <main class="store">
+        <div class="container">
+            <div class="store-header">
+                <div class="deco-line"></div>
+                <h2>門市據點</h2>
+                <div class="form-select d-flex">
+                    <label for="">選擇地區</label>
+                    <select name="">
+                        <option value="taipei">台北中山旗艦店</option>
+                    </select>
+                </div>
+            </div>
+            <div class="store-detail d-flex">
+                <div class="store-detail-item">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/storepage-1.png?raw=true" alt="store-image">
+                    <div class="store-detail-text">
+                        <h3>台北中山旗艦店</h3>
+                        <ul>
+                            <li class="d-flex">
+                                <span class="material-symbols-outlined">call</span>
+                                <a href="tel:+886-000-1234">電話:(02)000-1234</a>
+                            </li>
+                            <li class="d-flex">
+                                <span class="material-symbols-outlined">schedule</span>
+                                <a href="#">營業時間:10:00-21:00</a>
+                            </li>
+                            <li class="d-flex address">
+                                <span class="material-symbols-outlined">location_on</span>
+                                <a href="#">地址 : 台北市中山區南京東路25巷2-1號</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="map">
+                    <img src="../assets/images/map2x.png" alt="map-img">
+                </div>
+            </div>
+    </main>
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+</body>
+</html>
