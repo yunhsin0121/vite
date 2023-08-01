@@ -120,13 +120,13 @@ body{
         background-color: #B75929;
         border-radius: 4px;
 }
-.page{
+.pagination{
     justify-content: center;
     @include pad(){
         margin-top: 40px;
     }
 }
-.page-menu{
+.pagination-menu{
     a{
         font-size: 18px;
         display: block;
