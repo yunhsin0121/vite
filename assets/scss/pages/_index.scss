@@ -4,7 +4,6 @@ body{
 }
 h2{
     font-size: 48px;
-    text-align: center;
     font-weight: bold;
     margin-bottom: 32px;
     @include mobile(){
@@ -48,9 +47,9 @@ header{
             font-size: 20px;
             margin-top: 8px;
         }
-    }
-    a:hover{
-        background-color: #650300;
+        &:hover{
+            background-color: #650300;
+        }
     }
 }
 .service{
@@ -64,6 +63,7 @@ header{
     }
     h2{
         color:#650300;
+        text-align: center;
     }
 }
 .service-item{
@@ -104,6 +104,7 @@ header{
     }
     h2{
         color:#650300;
+        text-align: center;
     }
 }
 .classic-item{
@@ -150,6 +151,7 @@ header{
     h2{
         color: #ffffff;
         margin-bottom: 48px;
+        text-align: center;
     }
 }
 .co-branding-item{
@@ -185,6 +187,7 @@ header{
     }
     h2{
         color: #650300;
+        text-align: center;
         margin-bottom: 48px;
     }
 }
@@ -236,6 +239,7 @@ header{
     }
     h2{
         color: #650300;
+        text-align: center;
         margin-bottom: 48px;
     }
     p{

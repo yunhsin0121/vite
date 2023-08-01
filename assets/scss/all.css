@@ -62,18 +62,17 @@ img {
 
 .container {
   margin: 0 auto;
-  max-width: 1296px;
+  padding: 0 12px;
+  max-width: 1320px;
 }
 @media (max-width: 997px) {
   .container {
     max-width: 1016px;
-    padding: 0 12px;
   }
 }
 @media (max-width: 997px) and (max-width: 767px) {
   .container {
     max-width: 791px;
-    padding: 0 12px;
   }
 }
 
@@ -332,7 +331,6 @@ body {
 
 h2 {
   font-size: 48px;
-  text-align: center;
   font-weight: bold;
   margin-bottom: 32px;
 }
@@ -410,6 +408,7 @@ header {
 }
 .service h2 {
   color: #650300;
+  text-align: center;
 }
 
 .service-item {
@@ -458,6 +457,7 @@ header {
 }
 .classic h2 {
   color: #650300;
+  text-align: center;
 }
 
 .classic-item {
@@ -516,6 +516,7 @@ header {
 .co-branding h2 {
   color: #ffffff;
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .co-branding-item {
@@ -561,6 +562,7 @@ header {
 }
 .recommend h2 {
   color: #650300;
+  text-align: center;
   margin-bottom: 48px;
 }
 
@@ -620,6 +622,7 @@ header {
 }
 .contact h2 {
   color: #650300;
+  text-align: center;
   margin-bottom: 48px;
 }
 .contact p {
@@ -726,11 +729,6 @@ header {
 ::placeholder {
   color: #000000;
   opacity: 20%;
-}
-
-body {
-  font-family: "Roboto", "Noto Sans TC", sans-serif;
-  line-height: 1.5;
 }
 
 .style-menu {
@@ -989,7 +987,6 @@ body {
   border-left: 8px solid #9F1213;
   padding-left: 16px;
   margin-bottom: 32px;
-  text-align: left;
 }
 @media (max-width: 767px) {
   .store-header h2 {
@@ -1219,7 +1216,6 @@ body {
   border-left: 8px solid #9F1213;
   padding-left: 16px;
   margin-bottom: 32px;
-  text-align: left;
 }
 @media (max-width: 997px) {
   .blog h2 {
@@ -1427,7 +1423,6 @@ body {
   justify-content: space-between;
 }
 .specialEvent h2 {
-  text-align: left;
   font-weight: normal;
   margin-bottom: 0;
 }
@@ -1592,7 +1587,6 @@ body {
   border-left: 8px solid #9F1213;
   padding-left: 16px;
   margin-bottom: 32px;
-  text-align: left;
 }
 @media (max-width: 767px) {
   .faq h2 {
