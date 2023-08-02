@@ -6,9 +6,37 @@ $light-gray:#F2F2F2;
 $dark-gray:#555555;
 $light: #ffffff;
 $dark: #000000;
-$font-size-base:1rem;
+$font-size-base:1rem; 
+// 16px
+$font-size-small: $font-size-base*0.875;
+// 14px
 $font-size-h1: $font-size-base*4;
+// 64px
 $font-size-h2: $font-size-base*3;
-$font-size-h3: $font-size-base*2;
+// 48px
+$font-size-h3: $font-size-base*2.25;
+// 36px
 $font-size-h4: $font-size-base*1.5;
+// 24px
 $font-size-h5: $font-size-base*1.25;
+// 20px
+$max: 40;
+@for $i from 0 through $max {
+    .mb-#{$i} {
+      margin-bottom: $i * 4px;
+    }
+  }
+@media (max-width: 997px) {
+  @for $i from 0 through $max {
+    .mb-md-#{$i} {
+      margin-bottom: $i * 4px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  @for $i from 0 through $max {
+    .mb-sm-#{$i} {
+      margin-bottom: $i * 4px;
+    }
+  }
+}

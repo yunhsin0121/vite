@@ -9,28 +9,21 @@
 }
 .store-header{
     h2{
-        font-size: 48px;
-        font-weight: bold;
+        font-size: $font-size-h2;
         border-left: 8px solid #9F1213;
         padding-left: 16px;
-        margin-bottom: 32px;
         @include mobile(){
-            font-size: 24px;
-            margin-bottom: 24px;
+            font-size: $font-size-h4;
         }
     }
     .form-select{
         align-items: center;
-        margin-bottom: 40px;
-        @include mobile(){
-            margin-bottom: 24px;
-        }
     }
     label{
-        font-size: 24px;
+        font-size: $font-size-h4;
         margin-right: 16px;
         @include mobile(){
-            font-size: 16px;
+            font-size: $font-size-base;
             margin-right: 8px;
         }
     }
@@ -60,11 +53,10 @@
 }
 .store-list-item{
     width: 416px;
-    margin-bottom: 48px;
-    margin: 0 12px 48px 12px;
+    margin-left: 12px;
+    margin-right: 12px;
     @include pad(){
         width: 47%;
-        margin-bottom: 24px;
     }
     @include mobile(){
         width: 100%;
@@ -72,7 +64,7 @@
     h3{
         color:#212529;
         padding: 8px 24px;
-        font-size: 24px;
+        font-size: $font-size-h4;
         border: 1px solid #00000020;
     }
 }
@@ -81,11 +73,10 @@
     color:#212529;
     border: 1px solid #00000020;
     li{
-        margin-bottom: 8px;
         align-items: center;
     }
     a{
-        font-size: 20px;
+        font-size: $font-size-h5;
         text-decoration: none;
         color: $dark;
         margin-left: 8px;

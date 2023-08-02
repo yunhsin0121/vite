@@ -1,19 +1,5 @@
-.container{
-    margin: 0 auto;
-	padding: 0 12px;
-	max-width: 1320px;
-    @include pad(){
-        max-width: 1016px;
-        @include mobile(){
-            max-width: 791px;
-        }
-    }
-}
-.d-flex{
-    display: flex;
-}
 .menu{
-    background-color: #AA0601;
+    background-color: $primary;
     padding: 13px 0px;
         @include mobile(){
             padding: 0;
@@ -58,19 +44,19 @@
     li{   
         @include mobile(){
             width: 50%;
-            border: 1px solid #FFFFFF;
+            border: 1px solid $light;
         }
     }
     a{
         text-decoration: none;
-        color: #FFFFFF;
-        font-size: 20px;
+        color: $light;
+        font-size: $font-size-h5;
         padding: 12px 0px;
         text-align: center;
         display: block;
         @include mobile(){
             width: 100%;
-            font-size: 16px;
+            font-size: $font-size-base;
             padding: 12px 32px;
         }
     }
@@ -78,12 +64,12 @@
         text-decoration: underline;
         @include mobile(){
             text-decoration: none;
-            background-color: #650300;
+            background-color: $primary-dark;
         }
     }
 }
 footer{
-    background-color: #AA0601;
+    background-color: $primary;
     padding-top:48px;
     @include mobile(){
         padding-top:24px;
@@ -104,7 +90,7 @@ footer{
     margin-bottom: 24px;
     a{
         text-decoration: none;
-        color: #FFFFFF;
+        color: $light;
         display: block;
         padding: 16px 0px;
     }
@@ -145,22 +131,20 @@ footer{
     align-items: center;
     span{
         margin-right: 8px;
-        font-size: 36px;
-        color: #FFFFFF;
-        @include pad(){
-            font-size: 36px;
-            @include mobile(){
-                font-size: 16px;
-            }
+        font-size: $font-size-h3;
+        color: $light;
+        @include mobile(){
+            font-size: $font-size-base;
         }
     }
-}
+ }
+
 .footer-info a{
-    font-size: 36px;
+    font-size: $font-size-h3;
     text-decoration: none;
-    color: #FFFFFF;
+    color: $light;
     @include mobile(){
-        font-size: 16px;
+        font-size: $font-size-base;
     }
 }
 .footer-info a:hover{
@@ -169,8 +153,8 @@ footer{
 .footer-copyright{
     justify-content: space-between;
     padding: 32px 0px;
-    color: #FFFFFF;
-    border-top: 1px solid #FFFFFF;
+    color: $light;
+    border-top: 1px solid $light;
     @include mobile(){
         flex-direction: column;
         padding: 16px 0px;
@@ -183,10 +167,10 @@ footer{
 }
 .terms{
     justify-content: space-between;
-    font-size: 14px;
+    font-size: $font-size-small;
     @include mobile(){
         flex-direction: column;
-        font-size: 16px;
+        font-size: $font-size-base;
     }
     li{
         margin-left: 48px;
@@ -197,7 +181,7 @@ footer{
     }
     a{
         text-decoration: none;
-        color: #FFFFFF;
+        color: $light;
     }
     a:hover{
         text-decoration: underline;

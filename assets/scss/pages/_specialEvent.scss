@@ -30,9 +30,9 @@
         color: $light;
         text-decoration: none;
         display: block;
-        font-size: 20px;
+        font-size: $font-size-h5;
         @include mobile(){
-            font-size: 16px;
+            font-size: $font-size-base;
         }
     }
 }
@@ -44,9 +44,6 @@
     @include mobile(){
         padding: 16px 0px 48px 0px;
     }
-}
-.header-page,.header-tag{
-    margin-bottom: 8px;
 }
 .header-page a{
     text-decoration: none;
@@ -61,7 +58,7 @@
 .header-tag span{
     color: $primary;
     font-weight: bold;
-    font-size: 24px;
+    font-size: $font-size-h4;
 }
 .specialEvent{
     .container{
@@ -72,14 +69,7 @@
         margin-bottom: 0;
     }
     p{
-        font-size: 24px;
-        margin-bottom: 16px;
-        @include pad(){
-            margin-bottom: 24px;
-        }
-        @include mobile(){
-            margin-bottom: 16px;
-        }
+        font-size: $font-size-h4;
     }
     .content{
         width: 66.6%;
@@ -89,27 +79,9 @@
         @include mobile(){
             width: 100%;
         }
-        li{
-            margin-bottom: 40px;
-            @include pad(){
-                margin-bottom: 24px;
-            }
-            @include mobile(){
-                margin-bottom: 16px;
-            }
-        }
-        img{
-            margin-bottom: 8px;
-            @include pad(){
-                margin-bottom: 16px;
-            }
-            @include mobile(){
-                margin-bottom: 8px;
-            }
-        }
         p{
             color: $dark-gray;
-            font-size: 16px;
+            font-size: $font-size-base;
         }
     }
     .tag{
@@ -133,15 +105,15 @@
             }
         }
         span{
-            font-size: 24px;
+            font-size: $font-size-h4;
             @include pad(){
-                font-size: 16px;
+                font-size: $font-size-base;
             }
         }
         h3{
             font-size: 32px;
             @include pad(){
-                font-size: 16px;
+                font-size: $font-size-base;
             }
         }
     }
@@ -153,7 +125,6 @@
     .share{
         width: 66.6%;
         align-items: center;
-        margin-bottom: 16px;
         @include pad(){
             width: 100%;
             margin-top: 16px;
