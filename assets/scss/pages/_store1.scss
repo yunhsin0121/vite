@@ -47,12 +47,9 @@
 .store-list{
     flex-wrap: wrap;
     margin: 0 -12px;
-    @include pad(){
-        // margin: 0;
-    }
     .detail-btn{
-        color: #FFFFFF;
-        background: #000000;
+        color: $light;
+        background: $dark;
         text-decoration: none;
         width: 100%;
         display: block;
@@ -90,7 +87,7 @@
     a{
         font-size: 20px;
         text-decoration: none;
-        color: #000000;
+        color: $dark;
         margin-left: 8px;
     }
 }

@@ -1,12 +1,12 @@
 .blogPage-menu{
-    background-color: #650300;
+    background-color: $primary-dark;
     padding: 13px 0px;
     .container{
         justify-content: space-between;
         align-items: center;
     }
     a{
-        color: #FFFFFF;
+        color: $light;
         text-decoration: none;
         display: block;
         @include mobile(){
@@ -27,7 +27,7 @@
         width: 100%;
     }
     a{
-        color: #FFFFFF;
+        color: $light;
         text-decoration: none;
         display: block;
         font-size: 20px;
@@ -50,16 +50,16 @@
 }
 .header-page a{
     text-decoration: none;
-    color: #000000;
+    color: $dark;
 }
 .header-page a:hover{
-    color: #AA0601;
+    color: $primary;
 }
 .header-page a.active{
-    color: #AA0601;
+    color: $primary;
 }
 .header-tag span{
-    color: #AA0601;
+    color: $primary;
     font-weight: bold;
     font-size: 24px;
 }
@@ -108,12 +108,12 @@
             }
         }
         p{
-            color: #555555;
+            color: $dark-gray;
             font-size: 16px;
         }
     }
     .tag{
-        color:  #AA0601;
+        color:  $primary;
         font-weight: bold;
         width: 31%;
         @include pad(){
@@ -183,7 +183,7 @@
         }
         a{
             text-decoration: none;
-            color: #000;
+            color: $dark;
         }
     }
 }

@@ -1,5 +1,5 @@
 .blog-menu{
-    background-color: #650300;
+    background-color: $primary-dark;
     padding: 13px 0px;
     @include mobile(){
         display: none;
@@ -9,7 +9,7 @@
         align-items: center;
     }
     a{
-        color: #FFFFFF;
+        color: $light;
         text-decoration: none;
         display: block;
         span{
@@ -24,7 +24,7 @@
         width: 68%;
     }
     a{
-        color: #FFFFFF;
+        color: $light;
         text-decoration: none;
         display: block;
         font-size: 20px;
@@ -88,7 +88,7 @@
     }
     h3{
     font-size: 32px;
-    color: #650300;
+    color: $primary-dark;
         @include pad(){
             font-size: 24px;
         }
@@ -104,18 +104,18 @@
         }
     }
     .eng-title{
-        color: #000000;
+        color: $dark;
         font-weight: bold;
     }
     .date{
-        color: #000000;
+        color: $dark;
         opacity: 0.7;
     }
     .content{
-       color: #555555;
+       color: $dark-gray;
        a{
         text-decoration: none;
-        color: #555555;
+        color: $dark-gray;
        }
         @include mobile(){
             display: none;
@@ -127,7 +127,7 @@
             display: none;
         }
         a{
-            color: #650300;
+            color: $primary-dark;
             text-decoration: none;
             font-size: 36px;
             font-weight:bold;

@@ -20,7 +20,7 @@ header{
     }
 }
 .header-text{
-    color:#650300;
+    color:$primary-dark;
     text-align: right;
     padding: 296px 0px;
     p{
@@ -40,7 +40,7 @@ header{
     a{
         text-decoration: none;
         color: #ffffff;
-        background-color: #AA0601;
+        background-color: $primary;
         padding: 6px 12px;
         margin-top: 4px;
         @include mobile(){
@@ -48,12 +48,12 @@ header{
             margin-top: 8px;
         }
         &:hover{
-            background-color: #650300;
+            background-color: $primary-dark;
         }
     }
 }
 .service{
-    background-color: #FBF2F2;
+    background-color: $primary-light;
     padding: 80px 0px;
     @include pad(){
         padding-bottom: 56px;
@@ -62,7 +62,7 @@ header{
         padding: 40px 0px 16px 0px;
     }
     h2{
-        color:#650300;
+        color:$primary-dark;
         text-align: center;
     }
 }
@@ -90,7 +90,7 @@ header{
     }
     h3{
         font-size: 24px;
-        color:#650300;
+        color:$primary-dark;
         margin-bottom: 8px;
     }
     p{
@@ -103,7 +103,7 @@ header{
         padding: 40px 0px 16px 0px;
     }
     h2{
-        color:#650300;
+        color:$primary-dark;
         text-align: center;
     }
 }
@@ -130,7 +130,7 @@ header{
     }
     h3{
         font-size: 48px;
-        color: #AA0601;
+        color: $primary;
         font-weight: bold;
         text-align: center;
         font-style: italic;
@@ -149,7 +149,7 @@ header{
         padding: 40px 0px 16px 0px;
     }
     h2{
-        color: #ffffff;
+        color: $light;
         margin-bottom: 48px;
         text-align: center;
     }
@@ -169,11 +169,11 @@ header{
     }
     h3{
         font-size: 48px;
-        color:#AA0601;
+        color:$primary;
         font-weight: bold;
         font-style: italic;
         text-align: center;
-        background-color: #ffffff;
+        background-color: $light;
         padding: 8px 0px;
     }
 }
@@ -186,7 +186,7 @@ header{
         padding: 40px 0px 24px 0px;
     }
     h2{
-        color: #650300;
+        color: $primary-dark;
         text-align: center;
         margin-bottom: 48px;
     }
@@ -228,7 +228,7 @@ header{
     }
 }
 .contact{
-    background-color: #FBF2F2;
+    background-color: $primary-light;
     padding: 80px 0px;
     @include mobile(){
         padding: 40px 0px;
@@ -238,7 +238,7 @@ header{
         align-items: center;
     }
     h2{
-        color: #650300;
+        color: $primary-dark;
         text-align: center;
         margin-bottom: 48px;
     }
@@ -271,12 +271,12 @@ header{
         width: 100%;
         padding: 9px 12px;
         margin-bottom: 16px;
-        background-color: #FBF2F2;
-        border: 1px solid #000000;
+        background-color: $primary-light;
+        border: 1px solid $dark;
     }
     .form-check{
         font-size: 16px;
-        background-color: #FBF2F2;
+        background-color: $primary-light;
     }
     textarea{
         width: 100%;
@@ -284,8 +284,8 @@ header{
         height: 136px;
         margin-bottom: 16px;
         font-size: 16px;
-        background-color: #FBF2F2;
-        border: 1px solid #000000;
+        background-color: $primary-light;
+        border: 1px solid $dark;
     }
     .check{
         align-items: center;
@@ -305,7 +305,7 @@ header{
     }
     button{
         color: #ffffff;
-        background-color: #AA0601;
+        background-color: $primary;
         width: 33%;
         padding: 16px 0px;
         border: 0px;
@@ -317,10 +317,10 @@ header{
         }
     }
     button:hover{
-        background-color: #650300;
+        background-color:$primary-dark;
     }
 }
 ::placeholder { 
-    color: #000000;
+    color: $dark;
     opacity: 20%;
 }
