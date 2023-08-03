@@ -1,13 +1,13 @@
-.sunglasses-image1{
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-3.png?raw=true);
+.sunglasses-left-image{
+    @include bg-cover ("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-3.png?raw=true");  
     @include pad(){
-        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-3.png?raw=true);
+        @include bg-cover ("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-3.png?raw=truee");
     }
 }
-.sunglasses-image2{
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-4.png?raw=true);
+.sunglasses-right-image{
+    @include bg-cover ("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-4.png?raw=true");  
     @include pad(){
-        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-4.png?raw=true);
+        @include bg-cover ("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-4.png?raw=truee");
     }
 }
 .sunglasses-product-list{

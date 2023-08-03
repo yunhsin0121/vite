@@ -31,18 +31,10 @@
     }
 }
 .blog{
-    padding: 96px 0px 80px 0px;
-    @include pad(){
-        padding-top: 80px;
-    }
-    @include mobile(){
-        padding: 40px 0px 64px 0px;
-    }
     h2{
         font-size: $font-size-h2;
         font-weight: bold;
         border-left: 8px solid #9F1213;
-        padding-left: 16px;
         @include mobile(){
             font-size: $font-size-h4;
         }

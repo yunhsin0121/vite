@@ -1,17 +1,7 @@
-.store{
-    padding: 96px 0px 32px 0px;
-    @include pad(){
-        padding: 80px 0px 56px 0px;
-    }
-    @include mobile(){
-       padding-top: 40px;
-    }
-}
 .store-header{
     h2{
         font-size: $font-size-h2;
         border-left: 8px solid #9F1213;
-        padding-left: 16px;
         @include mobile(){
             font-size: $font-size-h4;
         }
@@ -21,10 +11,8 @@
     }
     label{
         font-size: $font-size-h4;
-        margin-right: 16px;
         @include mobile(){
             font-size: $font-size-base;
-            margin-right: 8px;
         }
     }
     select{
@@ -47,7 +35,6 @@
         width: 100%;
         display: block;
         text-align: center;
-        padding: 16px 0px;
         font-size: 19px;
     }
 }
@@ -63,18 +50,13 @@
     }
     h3{
         color:#212529;
-        padding: 8px 24px;
         font-size: $font-size-h4;
         border: 1px solid #00000020;
     }
 }
 .store-list-text{
-    padding: 16px 24px;
     color:#212529;
     border: 1px solid #00000020;
-    li{
-        align-items: center;
-    }
     a{
         font-size: $font-size-h5;
         text-decoration: none;

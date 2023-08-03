@@ -1,9 +1,5 @@
 .menu{
     background-color: $primary;
-    padding: 13px 0px;
-        @include mobile(){
-            padding: 0;
-        }
     .container{
         justify-content: space-between;
         flex-wrap: wrap;
@@ -11,11 +7,6 @@
         @include mobile(){
             padding: 0px;
         }
-    }
-}
-.logo{
-    @include mobile(){
-        padding: 16px;
     }
 }
 .menu h1{
@@ -28,7 +19,6 @@
         text-indent: 150%;
         overflow: hidden;
         white-space: nowrap;
-        padding-bottom:24px;
     }
 }
 .menu-item{
@@ -51,13 +41,11 @@
         text-decoration: none;
         color: $light;
         font-size: $font-size-h5;
-        padding: 12px 0px;
         text-align: center;
         display: block;
         @include mobile(){
             width: 100%;
             font-size: $font-size-base;
-            padding: 12px 32px;
         }
     }
     a:hover{
@@ -70,10 +58,7 @@
 }
 footer{
     background-color: $primary;
-    padding-top:48px;
-    @include mobile(){
-        padding-top:24px;
-    }
+
 }
 .footer{
     justify-content: space-between;
@@ -87,12 +72,10 @@ footer{
 .footer-menu{
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 24px;
     a{
         text-decoration: none;
         color: $light;
         display: block;
-        padding: 16px 0px;
     }
     a:hover{
         text-decoration: underline;
@@ -104,33 +87,21 @@ footer{
 .social-media {
     justify-content: space-between;
     @include mobile(){
-        width: 30%;
+        width: 25%;
     }
     a{
         display: block;
-        margin-left: 32px;
-        @include pad(){
-            margin-left: 16px;
-            @include mobile(){
-                margin-left: 8px;
-            }
-        }
     }
     img{
         width: 48px;
-    }
-}
-.footer-info{
-    margin-bottom: 28px;
-    @include mobile(){
-        margin-bottom: 24px;
+        @include mobile(){
+            width: 24px;
+        }
     }
 }
 .footer-info li{
-    margin-bottom: 8px;
     align-items: center;
     span{
-        margin-right: 8px;
         font-size: $font-size-h3;
         color: $light;
         @include mobile(){
@@ -152,17 +123,10 @@ footer{
 }
 .footer-copyright{
     justify-content: space-between;
-    padding: 32px 0px;
     color: $light;
     border-top: 1px solid $light;
     @include mobile(){
         flex-direction: column;
-        padding: 16px 0px;
-    }
-    p{
-        @include mobile(){
-            margin-bottom: 8px;
-        }
     }
 }
 .terms{
@@ -171,13 +135,6 @@ footer{
     @include mobile(){
         flex-direction: column;
         font-size: $font-size-base;
-    }
-    li{
-        margin-left: 48px;
-        @include mobile(){
-            margin-left: 0;
-            margin-bottom: 8px;
-        }
     }
     a{
         text-decoration: none;
