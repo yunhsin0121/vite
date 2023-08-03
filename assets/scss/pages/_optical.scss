@@ -119,6 +119,7 @@
         padding: 12px 0px;
         text-decoration: none;
         color: $dark-gray;
+        text-align: center;
         @include mobile(){
             font-size: $font-size-base;
         }
