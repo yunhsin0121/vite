@@ -1,5 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap");
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1902,256 +1902,6 @@
   padding-bottom: 120px;
 }
 
-.py-31 {
-  padding-top: 124px;
-  padding-bottom: 124px;
-}
-
-.py-32 {
-  padding-top: 128px;
-  padding-bottom: 128px;
-}
-
-.py-33 {
-  padding-top: 132px;
-  padding-bottom: 132px;
-}
-
-.py-34 {
-  padding-top: 136px;
-  padding-bottom: 136px;
-}
-
-.py-35 {
-  padding-top: 140px;
-  padding-bottom: 140px;
-}
-
-.py-36 {
-  padding-top: 144px;
-  padding-bottom: 144px;
-}
-
-.py-37 {
-  padding-top: 148px;
-  padding-bottom: 148px;
-}
-
-.py-38 {
-  padding-top: 152px;
-  padding-bottom: 152px;
-}
-
-.py-39 {
-  padding-top: 156px;
-  padding-bottom: 156px;
-}
-
-.py-40 {
-  padding-top: 160px;
-  padding-bottom: 160px;
-}
-
-.py-41 {
-  padding-top: 164px;
-  padding-bottom: 164px;
-}
-
-.py-42 {
-  padding-top: 168px;
-  padding-bottom: 168px;
-}
-
-.py-43 {
-  padding-top: 172px;
-  padding-bottom: 172px;
-}
-
-.py-44 {
-  padding-top: 176px;
-  padding-bottom: 176px;
-}
-
-.py-45 {
-  padding-top: 180px;
-  padding-bottom: 180px;
-}
-
-.py-46 {
-  padding-top: 184px;
-  padding-bottom: 184px;
-}
-
-.py-47 {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
-.py-48 {
-  padding-top: 192px;
-  padding-bottom: 192px;
-}
-
-.py-49 {
-  padding-top: 196px;
-  padding-bottom: 196px;
-}
-
-.py-50 {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.py-51 {
-  padding-top: 204px;
-  padding-bottom: 204px;
-}
-
-.py-52 {
-  padding-top: 208px;
-  padding-bottom: 208px;
-}
-
-.py-53 {
-  padding-top: 212px;
-  padding-bottom: 212px;
-}
-
-.py-54 {
-  padding-top: 216px;
-  padding-bottom: 216px;
-}
-
-.py-55 {
-  padding-top: 220px;
-  padding-bottom: 220px;
-}
-
-.py-56 {
-  padding-top: 224px;
-  padding-bottom: 224px;
-}
-
-.py-57 {
-  padding-top: 228px;
-  padding-bottom: 228px;
-}
-
-.py-58 {
-  padding-top: 232px;
-  padding-bottom: 232px;
-}
-
-.py-59 {
-  padding-top: 236px;
-  padding-bottom: 236px;
-}
-
-.py-60 {
-  padding-top: 240px;
-  padding-bottom: 240px;
-}
-
-.py-61 {
-  padding-top: 244px;
-  padding-bottom: 244px;
-}
-
-.py-62 {
-  padding-top: 248px;
-  padding-bottom: 248px;
-}
-
-.py-63 {
-  padding-top: 252px;
-  padding-bottom: 252px;
-}
-
-.py-64 {
-  padding-top: 256px;
-  padding-bottom: 256px;
-}
-
-.py-65 {
-  padding-top: 260px;
-  padding-bottom: 260px;
-}
-
-.py-66 {
-  padding-top: 264px;
-  padding-bottom: 264px;
-}
-
-.py-67 {
-  padding-top: 268px;
-  padding-bottom: 268px;
-}
-
-.py-68 {
-  padding-top: 272px;
-  padding-bottom: 272px;
-}
-
-.py-69 {
-  padding-top: 276px;
-  padding-bottom: 276px;
-}
-
-.py-70 {
-  padding-top: 280px;
-  padding-bottom: 280px;
-}
-
-.py-71 {
-  padding-top: 284px;
-  padding-bottom: 284px;
-}
-
-.py-72 {
-  padding-top: 288px;
-  padding-bottom: 288px;
-}
-
-.py-73 {
-  padding-top: 292px;
-  padding-bottom: 292px;
-}
-
-.py-74 {
-  padding-top: 296px;
-  padding-bottom: 296px;
-}
-
-.py-75 {
-  padding-top: 300px;
-  padding-bottom: 300px;
-}
-
-.py-76 {
-  padding-top: 304px;
-  padding-bottom: 304px;
-}
-
-.py-77 {
-  padding-top: 308px;
-  padding-bottom: 308px;
-}
-
-.py-78 {
-  padding-top: 312px;
-  padding-bottom: 312px;
-}
-
-.py-79 {
-  padding-top: 316px;
-  padding-bottom: 316px;
-}
-
-.py-80 {
-  padding-top: 320px;
-  padding-bottom: 320px;
-}
-
 @media (max-width: 997px) {
   .py-md-0 {
     padding-top: 0px;
@@ -2276,206 +2026,6 @@
   .py-md-30 {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
-  .py-md-31 {
-    padding-top: 124px;
-    padding-bottom: 124px;
-  }
-  .py-md-32 {
-    padding-top: 128px;
-    padding-bottom: 128px;
-  }
-  .py-md-33 {
-    padding-top: 132px;
-    padding-bottom: 132px;
-  }
-  .py-md-34 {
-    padding-top: 136px;
-    padding-bottom: 136px;
-  }
-  .py-md-35 {
-    padding-top: 140px;
-    padding-bottom: 140px;
-  }
-  .py-md-36 {
-    padding-top: 144px;
-    padding-bottom: 144px;
-  }
-  .py-md-37 {
-    padding-top: 148px;
-    padding-bottom: 148px;
-  }
-  .py-md-38 {
-    padding-top: 152px;
-    padding-bottom: 152px;
-  }
-  .py-md-39 {
-    padding-top: 156px;
-    padding-bottom: 156px;
-  }
-  .py-md-40 {
-    padding-top: 160px;
-    padding-bottom: 160px;
-  }
-  .py-md-41 {
-    padding-top: 164px;
-    padding-bottom: 164px;
-  }
-  .py-md-42 {
-    padding-top: 168px;
-    padding-bottom: 168px;
-  }
-  .py-md-43 {
-    padding-top: 172px;
-    padding-bottom: 172px;
-  }
-  .py-md-44 {
-    padding-top: 176px;
-    padding-bottom: 176px;
-  }
-  .py-md-45 {
-    padding-top: 180px;
-    padding-bottom: 180px;
-  }
-  .py-md-46 {
-    padding-top: 184px;
-    padding-bottom: 184px;
-  }
-  .py-md-47 {
-    padding-top: 188px;
-    padding-bottom: 188px;
-  }
-  .py-md-48 {
-    padding-top: 192px;
-    padding-bottom: 192px;
-  }
-  .py-md-49 {
-    padding-top: 196px;
-    padding-bottom: 196px;
-  }
-  .py-md-50 {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-  .py-md-51 {
-    padding-top: 204px;
-    padding-bottom: 204px;
-  }
-  .py-md-52 {
-    padding-top: 208px;
-    padding-bottom: 208px;
-  }
-  .py-md-53 {
-    padding-top: 212px;
-    padding-bottom: 212px;
-  }
-  .py-md-54 {
-    padding-top: 216px;
-    padding-bottom: 216px;
-  }
-  .py-md-55 {
-    padding-top: 220px;
-    padding-bottom: 220px;
-  }
-  .py-md-56 {
-    padding-top: 224px;
-    padding-bottom: 224px;
-  }
-  .py-md-57 {
-    padding-top: 228px;
-    padding-bottom: 228px;
-  }
-  .py-md-58 {
-    padding-top: 232px;
-    padding-bottom: 232px;
-  }
-  .py-md-59 {
-    padding-top: 236px;
-    padding-bottom: 236px;
-  }
-  .py-md-60 {
-    padding-top: 240px;
-    padding-bottom: 240px;
-  }
-  .py-md-61 {
-    padding-top: 244px;
-    padding-bottom: 244px;
-  }
-  .py-md-62 {
-    padding-top: 248px;
-    padding-bottom: 248px;
-  }
-  .py-md-63 {
-    padding-top: 252px;
-    padding-bottom: 252px;
-  }
-  .py-md-64 {
-    padding-top: 256px;
-    padding-bottom: 256px;
-  }
-  .py-md-65 {
-    padding-top: 260px;
-    padding-bottom: 260px;
-  }
-  .py-md-66 {
-    padding-top: 264px;
-    padding-bottom: 264px;
-  }
-  .py-md-67 {
-    padding-top: 268px;
-    padding-bottom: 268px;
-  }
-  .py-md-68 {
-    padding-top: 272px;
-    padding-bottom: 272px;
-  }
-  .py-md-69 {
-    padding-top: 276px;
-    padding-bottom: 276px;
-  }
-  .py-md-70 {
-    padding-top: 280px;
-    padding-bottom: 280px;
-  }
-  .py-md-71 {
-    padding-top: 284px;
-    padding-bottom: 284px;
-  }
-  .py-md-72 {
-    padding-top: 288px;
-    padding-bottom: 288px;
-  }
-  .py-md-73 {
-    padding-top: 292px;
-    padding-bottom: 292px;
-  }
-  .py-md-74 {
-    padding-top: 296px;
-    padding-bottom: 296px;
-  }
-  .py-md-75 {
-    padding-top: 300px;
-    padding-bottom: 300px;
-  }
-  .py-md-76 {
-    padding-top: 304px;
-    padding-bottom: 304px;
-  }
-  .py-md-77 {
-    padding-top: 308px;
-    padding-bottom: 308px;
-  }
-  .py-md-78 {
-    padding-top: 312px;
-    padding-bottom: 312px;
-  }
-  .py-md-79 {
-    padding-top: 316px;
-    padding-bottom: 316px;
-  }
-  .py-md-80 {
-    padding-top: 320px;
-    padding-bottom: 320px;
   }
 }
 @media (max-width: 767px) {
@@ -2602,206 +2152,6 @@
   .py-sm-30 {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
-  .py-sm-31 {
-    padding-top: 124px;
-    padding-bottom: 124px;
-  }
-  .py-sm-32 {
-    padding-top: 128px;
-    padding-bottom: 128px;
-  }
-  .py-sm-33 {
-    padding-top: 132px;
-    padding-bottom: 132px;
-  }
-  .py-sm-34 {
-    padding-top: 136px;
-    padding-bottom: 136px;
-  }
-  .py-sm-35 {
-    padding-top: 140px;
-    padding-bottom: 140px;
-  }
-  .py-sm-36 {
-    padding-top: 144px;
-    padding-bottom: 144px;
-  }
-  .py-sm-37 {
-    padding-top: 148px;
-    padding-bottom: 148px;
-  }
-  .py-sm-38 {
-    padding-top: 152px;
-    padding-bottom: 152px;
-  }
-  .py-sm-39 {
-    padding-top: 156px;
-    padding-bottom: 156px;
-  }
-  .py-sm-40 {
-    padding-top: 160px;
-    padding-bottom: 160px;
-  }
-  .py-sm-41 {
-    padding-top: 164px;
-    padding-bottom: 164px;
-  }
-  .py-sm-42 {
-    padding-top: 168px;
-    padding-bottom: 168px;
-  }
-  .py-sm-43 {
-    padding-top: 172px;
-    padding-bottom: 172px;
-  }
-  .py-sm-44 {
-    padding-top: 176px;
-    padding-bottom: 176px;
-  }
-  .py-sm-45 {
-    padding-top: 180px;
-    padding-bottom: 180px;
-  }
-  .py-sm-46 {
-    padding-top: 184px;
-    padding-bottom: 184px;
-  }
-  .py-sm-47 {
-    padding-top: 188px;
-    padding-bottom: 188px;
-  }
-  .py-sm-48 {
-    padding-top: 192px;
-    padding-bottom: 192px;
-  }
-  .py-sm-49 {
-    padding-top: 196px;
-    padding-bottom: 196px;
-  }
-  .py-sm-50 {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-  .py-sm-51 {
-    padding-top: 204px;
-    padding-bottom: 204px;
-  }
-  .py-sm-52 {
-    padding-top: 208px;
-    padding-bottom: 208px;
-  }
-  .py-sm-53 {
-    padding-top: 212px;
-    padding-bottom: 212px;
-  }
-  .py-sm-54 {
-    padding-top: 216px;
-    padding-bottom: 216px;
-  }
-  .py-sm-55 {
-    padding-top: 220px;
-    padding-bottom: 220px;
-  }
-  .py-sm-56 {
-    padding-top: 224px;
-    padding-bottom: 224px;
-  }
-  .py-sm-57 {
-    padding-top: 228px;
-    padding-bottom: 228px;
-  }
-  .py-sm-58 {
-    padding-top: 232px;
-    padding-bottom: 232px;
-  }
-  .py-sm-59 {
-    padding-top: 236px;
-    padding-bottom: 236px;
-  }
-  .py-sm-60 {
-    padding-top: 240px;
-    padding-bottom: 240px;
-  }
-  .py-sm-61 {
-    padding-top: 244px;
-    padding-bottom: 244px;
-  }
-  .py-sm-62 {
-    padding-top: 248px;
-    padding-bottom: 248px;
-  }
-  .py-sm-63 {
-    padding-top: 252px;
-    padding-bottom: 252px;
-  }
-  .py-sm-64 {
-    padding-top: 256px;
-    padding-bottom: 256px;
-  }
-  .py-sm-65 {
-    padding-top: 260px;
-    padding-bottom: 260px;
-  }
-  .py-sm-66 {
-    padding-top: 264px;
-    padding-bottom: 264px;
-  }
-  .py-sm-67 {
-    padding-top: 268px;
-    padding-bottom: 268px;
-  }
-  .py-sm-68 {
-    padding-top: 272px;
-    padding-bottom: 272px;
-  }
-  .py-sm-69 {
-    padding-top: 276px;
-    padding-bottom: 276px;
-  }
-  .py-sm-70 {
-    padding-top: 280px;
-    padding-bottom: 280px;
-  }
-  .py-sm-71 {
-    padding-top: 284px;
-    padding-bottom: 284px;
-  }
-  .py-sm-72 {
-    padding-top: 288px;
-    padding-bottom: 288px;
-  }
-  .py-sm-73 {
-    padding-top: 292px;
-    padding-bottom: 292px;
-  }
-  .py-sm-74 {
-    padding-top: 296px;
-    padding-bottom: 296px;
-  }
-  .py-sm-75 {
-    padding-top: 300px;
-    padding-bottom: 300px;
-  }
-  .py-sm-76 {
-    padding-top: 304px;
-    padding-bottom: 304px;
-  }
-  .py-sm-77 {
-    padding-top: 308px;
-    padding-bottom: 308px;
-  }
-  .py-sm-78 {
-    padding-top: 312px;
-    padding-bottom: 312px;
-  }
-  .py-sm-79 {
-    padding-top: 316px;
-    padding-bottom: 316px;
-  }
-  .py-sm-80 {
-    padding-top: 320px;
-    padding-bottom: 320px;
   }
 }
 .pt-0 {
@@ -3517,6 +2867,10 @@ body {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu {
   background-color: #AA0601;
 }
@@ -3566,7 +2920,6 @@ body {
   }
 }
 .menu-item a {
-  text-decoration: none;
   color: #ffffff;
   font-size: 1.25rem;
   text-align: center;
@@ -3583,7 +2936,6 @@ body {
 }
 @media (max-width: 767px) {
   .menu-item a:hover {
-    text-decoration: none;
     background-color: #650300;
   }
 }
@@ -3610,7 +2962,6 @@ footer {
   align-items: center;
 }
 .footer-menu a {
-  text-decoration: none;
   color: #ffffff;
   display: block;
 }
@@ -3658,7 +3009,6 @@ footer {
 
 .footer-info a {
   font-size: 2.25rem;
-  text-decoration: none;
   color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -3693,7 +3043,6 @@ footer {
   }
 }
 .terms a {
-  text-decoration: none;
   color: #ffffff;
 }
 .terms a:hover {
@@ -3724,6 +3073,7 @@ h2 {
 .header-text {
   color: #650300;
   text-align: right;
+  padding: 296px 0px;
 }
 .header-text p {
   font-size: 2.25rem;
@@ -3743,7 +3093,6 @@ h2 {
   }
 }
 .header-text a {
-  text-decoration: none;
   color: #ffffff;
   background-color: #AA0601;
   padding: 6px 12px;
@@ -3980,6 +3329,7 @@ h2 {
   font-size: 1rem;
   background-color: #FBF2F2;
   border: 1px solid #000000;
+  resize: none;
 }
 .contact form .check {
   align-items: center;
@@ -3996,12 +3346,12 @@ h2 {
 .btn button {
   color: #ffffff;
   background-color: #AA0601;
-  width: 33%;
+  width: 64.2%;
   border: 0px;
 }
 @media (max-width: 997px) {
   .btn button {
-    width: 50%;
+    width: 56.5%;
   }
 }
 @media (max-width: 767px) {
@@ -4041,7 +3391,6 @@ h2 {
   display: block;
   font-size: 32px;
   color: #000000;
-  text-decoration: none;
   text-align: center;
   border: 1px solid #DCDCDC;
   border-bottom: 8px solid #ffffff;
@@ -4188,8 +3537,8 @@ h2 {
   font-size: 18px;
   display: block;
   padding: 12px 0px;
-  text-decoration: none;
   color: #555555;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .pagination-menu a {
@@ -4305,11 +3654,14 @@ h2 {
 .store-list .detail-btn {
   color: #ffffff;
   background: #000000;
-  text-decoration: none;
   width: 100%;
   display: block;
   text-align: center;
   font-size: 19px;
+}
+.store-list .detail-btn:hover {
+  color: #000000;
+  background: #AA0601;
 }
 
 .store-list-item {
@@ -4339,9 +3691,11 @@ h2 {
 }
 .store-list-text a {
   font-size: 1.25rem;
-  text-decoration: none;
   color: #000000;
   margin-left: 8px;
+}
+.store-list-text a:hover {
+  text-decoration: underline;
 }
 
 .store-detail {
@@ -4401,9 +3755,11 @@ h2 {
 }
 .store-detail-text a {
   font-size: 1.25rem;
-  text-decoration: none;
   color: #000000;
   margin-left: 8px;
+}
+.store-detail-text a:hover {
+  text-decoration: underline;
 }
 
 .map {
@@ -4431,13 +3787,15 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
-.blog-menu a {
+.blog-menu .search {
   color: #ffffff;
-  text-decoration: none;
   display: block;
 }
-.blog-menu a span {
+.blog-menu .search span {
   width: 30px;
+}
+.blog-menu .search:hover {
+  text-decoration: underline;
 }
 
 .blog-menu-item {
@@ -4451,9 +3809,11 @@ h2 {
 }
 .blog-menu-item a {
   color: #ffffff;
-  text-decoration: none;
   display: block;
   font-size: 1.25rem;
+}
+.blog-menu-item a:hover {
+  text-decoration: underline;
 }
 
 .blog h2 {
@@ -4523,12 +3883,15 @@ h2 {
   color: #555555;
 }
 .blog-content .content a {
-  text-decoration: none;
   color: #555555;
+  display: none;
 }
-@media (max-width: 767px) {
-  .blog-content .content {
-    display: none;
+.blog-content .content a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 997px) {
+  .blog-content .content a {
+    display: inline;
   }
 }
 .blog-content .btn {
@@ -4541,9 +3904,11 @@ h2 {
 }
 .blog-content .btn a {
   color: #650300;
-  text-decoration: none;
   font-size: 2.25rem;
   font-weight: bold;
+}
+.blog-content .btn a:hover {
+  text-decoration: underline;
 }
 
 .blogPage-menu {
@@ -4554,18 +3919,20 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
-.blogPage-menu a {
+.blogPage-menu .search {
   color: #ffffff;
-  text-decoration: none;
   display: block;
 }
 @media (max-width: 767px) {
-  .blogPage-menu a {
+  .blogPage-menu .search {
     display: none;
   }
 }
-.blogPage-menu a span {
+.blogPage-menu .search span {
   width: 30px;
+}
+.blogPage-menu .search:hover {
+  text-decoration: underline;
 }
 
 .blogPage-menu-item {
@@ -4584,9 +3951,11 @@ h2 {
 }
 .blogPage-menu-item a {
   color: #ffffff;
-  text-decoration: none;
   display: block;
   font-size: 1.25rem;
+}
+.blogPage-menu-item a:hover {
+  text-decoration: underline;
 }
 @media (max-width: 767px) {
   .blogPage-menu-item a {
@@ -4595,22 +3964,23 @@ h2 {
 }
 
 .header-page a {
-  text-decoration: none;
   color: #000000;
 }
-
 .header-page a:hover {
   color: #AA0601;
 }
 
-.header-page a.active {
+.header-page .active {
   color: #AA0601;
 }
 
-.header-tag span {
+.header-tag a {
   color: #AA0601;
   font-weight: bold;
   font-size: 1.5rem;
+}
+.header-tag a:hover {
+  color: #650300;
 }
 
 .specialEvent .container {
@@ -4666,11 +4036,15 @@ h2 {
     font-size: 19px;
   }
 }
-.specialEvent .tag span {
+.specialEvent .tag a {
+  color: #AA0601;
   font-size: 1.5rem;
 }
+.specialEvent .tag a:hover {
+  color: #650300;
+}
 @media (max-width: 997px) {
-  .specialEvent .tag span {
+  .specialEvent .tag a {
     font-size: 1rem;
   }
 }
@@ -4718,8 +4092,10 @@ h2 {
   align-items: center;
 }
 .specialEvent-footer .footer-page a {
-  text-decoration: none;
   color: #000000;
+}
+.specialEvent-footer .footer-page a:hover {
+  color: #AA0601;
 }
 
 .faq h2 {

@@ -5,15 +5,17 @@
         justify-content: space-between;
         align-items: center;
     }
-    a{
+    .search{
         color: $light;
-        text-decoration: none;
         display: block;
         @include mobile(){
             display: none;
         }
         span{
             width: 30px;
+        }
+        &:hover{
+            text-decoration: underline;
         }
     }
 }
@@ -28,28 +30,32 @@
     }
     a{
         color: $light;
-        text-decoration: none;
         display: block;
         font-size: $font-size-h5;
+        &:hover{
+            text-decoration: underline;
+        }
         @include mobile(){
             font-size: $font-size-base;
         }
     }
 }
 .header-page a{
-    text-decoration: none;
     color: $dark;
+    &:hover{
+        color: $primary;
+    }
 }
-.header-page a:hover{
+.header-page .active{
     color: $primary;
 }
-.header-page a.active{
-    color: $primary;
-}
-.header-tag span{
+.header-tag a{
     color: $primary;
     font-weight: bold;
     font-size: $font-size-h4;
+    &:hover{
+        color: $primary-dark;
+    }
 }
 .specialEvent{
     .container{
@@ -94,8 +100,12 @@
                 }
             }
         }
-        span{
+        a{
+            color:  $primary;
             font-size: $font-size-h4;
+            &:hover{
+                color: $primary-dark;
+            }
             @include pad(){
                 font-size: $font-size-base;
             }
@@ -137,8 +147,10 @@
             align-items: center;
         }
         a{
-            text-decoration: none;
             color: $dark;
+            &:hover{
+                color: $primary;
+            }
         }
     }
 }

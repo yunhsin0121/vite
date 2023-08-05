@@ -31,11 +31,14 @@
     .detail-btn{
         color: $light;
         background: $dark;
-        text-decoration: none;
         width: 100%;
         display: block;
         text-align: center;
         font-size: 19px;
+        &:hover{
+            color: $dark;
+            background: $primary;
+        }
     }
 }
 .store-list-item{
@@ -59,8 +62,10 @@
     border: 1px solid #00000020;
     a{
         font-size: $font-size-h5;
-        text-decoration: none;
         color: $dark;
         margin-left: 8px;
+        &:hover{
+            text-decoration: underline;
+        }
     }
 }

@@ -38,7 +38,6 @@
         }
     }
     a{
-        text-decoration: none;
         color: $light;
         font-size: $font-size-h5;
         text-align: center;
@@ -51,7 +50,6 @@
     a:hover{
         text-decoration: underline;
         @include mobile(){
-            text-decoration: none;
             background-color: $primary-dark;
         }
     }
@@ -73,7 +71,6 @@ footer{
     justify-content: space-between;
     align-items: center;
     a{
-        text-decoration: none;
         color: $light;
         display: block;
     }
@@ -112,7 +109,6 @@ footer{
 
 .footer-info a{
     font-size: $font-size-h3;
-    text-decoration: none;
     color: $light;
     @include mobile(){
         font-size: $font-size-base;
@@ -137,7 +133,6 @@ footer{
         font-size: $font-size-base;
     }
     a{
-        text-decoration: none;
         color: $light;
     }
     a:hover{

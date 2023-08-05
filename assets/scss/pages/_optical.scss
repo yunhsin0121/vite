@@ -13,7 +13,6 @@
         display: block;
         font-size: 32px;
         color:$dark;
-        text-decoration: none;
         text-align: center;
         border: 1px solid $gray;
         border-bottom: 8px solid $light;
@@ -117,7 +116,6 @@
         font-size: 18px;
         display: block;
         padding: 12px 0px;
-        text-decoration: none;
         color: $dark-gray;
         text-align: center;
         @include mobile(){

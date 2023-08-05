@@ -16,6 +16,7 @@ h2{
 .header-text{
     color:$primary-dark;
     text-align: right;
+    padding: 296px 0px;
     p{
         font-size: $font-size-h3;
         @include mobile(){
@@ -30,7 +31,6 @@ h2{
         }
     }
     a{
-        text-decoration: none;
         color: $light;
         background-color: $primary;
         padding: 6px 12px;
@@ -229,6 +229,7 @@ h2{
         font-size: $font-size-base;
         background-color: $primary-light;
         border: 1px solid $dark;
+        resize: none;
     }
     .check{
         align-items: center;
@@ -242,10 +243,10 @@ h2{
     button{
         color: #ffffff;
         background-color: $primary;
-        width: 33%;
+        width: 64.2%;
         border: 0px;
         @include pad(){
-            width: 50%;
+            width: 56.5%;
         }
         @include mobile(){
             width: 100%;
